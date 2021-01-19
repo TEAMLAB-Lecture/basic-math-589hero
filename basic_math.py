@@ -111,15 +111,3 @@ def get_median(number_list):
         median = number_list[length//2]
 
     return median
-
-
-if __name__ == '__main__':
-
-    print(get_greatest([39, 54, 32, 11, 99]))  # 99
-
-    print(get_smallest([39, 54, 32, 11, 99]))  # 11
-
-    print(get_mean([39, 54, 32, 11, 99]))  # 47
-
-    print(get_median([39, 54, 32, 11, 99]))  # 39
-    print(get_median([39, 54, 32, 11, 99, 5]))  # 35.5
